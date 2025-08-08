@@ -3,7 +3,8 @@
 </p>
 ThinkxLabs serves as the AI research and engineering hub for Think Round, Inc. Our mission is to design and maintain cutting-edge AI frameworks, reusable modules, and developer tooling that seamlessly integrate with and elevate ongoing projects. By standardizing core components and pioneering new techniques, ThinkxLabs enables product AI teams to accelerate experimentation, reduce external dependencies, and achieve greater autonomy in building intelligent solutions.
 
-Empathy scoring & response primitives for the ThinkxLife.
+
+<h3> Empathy scoring & response primitives </h3>
 
 ```bash
 # install in editable mode
