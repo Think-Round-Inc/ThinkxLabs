@@ -1,0 +1,29 @@
+[project]
+name = "thinkxlabs-empathy"
+version = "0.1.0"
+description = "Empathy scoring and response utilities for ThinkxLife"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "ThinkxLife Generative AI Engineers", email = "ai@thinkround.org" },
+]
+dependencies = [
+  "torch >= 2.0",
+  "transformers >= 4.42",
+  "pydantic >= 2.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+  "black",
+  "mypy",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
