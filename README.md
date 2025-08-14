@@ -6,11 +6,6 @@ ThinkxLabs serves as the AI research and engineering hub for Think Round, Inc. O
 
 <h3> Empathy scoring & response primitives </h3>
 
-```bash
-# install in editable mode
-pip install -e .[dev]
-```
-
 ```python
 from thinkxlabs.empathy import EmpathyScorer
 print(EmpathyScorer().score_text("I’m feeling lost today"))
